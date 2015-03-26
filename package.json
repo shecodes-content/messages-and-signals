@@ -1,0 +1,29 @@
+{
+  "name": "messages-and-signals",
+  "version": "1.0.0",
+  "description": "about messages and signals in nature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shecodes-content/messages-and-signals.git"
+  },
+  "brain": {
+    "requires": [
+      "encoding"
+    ],
+    "provides": [
+      "signal",
+      "message"
+    ],
+    "track": "yellow"
+  },
+  "author": "Jan Bölsche <jan@lagomorph.de> (http://regular.codes)",
+  "license": "CC-SA-BY-3.0",
+  "bugs": {
+    "url": "https://github.com/shecodes-content/messages-and-signals/issues"
+  },
+  "homepage": "https://github.com/shecodes-content/messages-and-signals"
+}
